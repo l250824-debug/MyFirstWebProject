@@ -1,56 +1,159 @@
-#box1{
     width: 1700px; 
-        height: 875px; 
-        background-color: rgb(255, 255, 255); 
-        border: 1px solid rgb(255, 255, 255); 
-        margin-top: 10px; 
-        margin-left: 100px; 
-        margin-right: 100px; 
-        margin-bottom: 30px; 
-        padding-top: 5px; 
         padding-left: 5px;
-        padding-right: 5px;
+#box1
+{
+    width: 1150px; 
+    height: 585px; 
+    background-color: rgb(255, 255, 255); 
+    border: 1px solid rgb(255, 255, 255); 
+    margin-top: 10px; 
+    margin-left: 100px; 
+    margin-right: 100px; 
+    margin-bottom: 40px; 
+    padding-top: 5px; 
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #box2{
-    width: 1685px; 
-        height: 200x; 
-        background-color: rgb(177, 255, 255); 
-        border: 1px solid rgb(177, 255, 255); 
-        margin-top: 5px; 
-        margin-left: 5px; 
-        margin-right: 5px; 
-        margin-bottom: 5px; 
-        text-align: right ;
-        -webkit-text-fill-color: rgb(6, 187, 187);
+    width: 1135px; 
+    height: 100Px; 
+    background-color: rgb(177, 255, 255); 
+    border: 1px solid rgb(177, 255, 255); 
+    margin-top: 5px; 
+    margin-left: 5px; 
+    margin-right: 5px; 
+    margin-bottom: 5px; 
+    text-align: right ;
+    -webkit-text-fill-color: rgb(6, 187, 187);
         
 }
+p
+{
+    margin-top: 2px; 
+    margin-left: 0px;  
+}
+
 #box3
 {
-   width: 1675px; 
-        height: 655px; 
-        background-color: rgb(255, 255, 255); 
-        border: 1px solid rgb(255, 255, 255); 
-        margin-top: 5px; 
-        margin-left: 0px; 
-        margin-right: 5px; 
-        margin-bottom: 40px; 
+    width: 1140px; 
+    height: 455px; 
+    background-color: rgb(255, 255, 255); 
+    border: 1px solid rgb(255, 255, 255); 
+    margin-top: 5px; 
+    margin-left: 0px; 
+    margin-right: 5px; 
+    margin-bottom: 40px; 
 }
 
 #box4
 {
-   width: 250px; 
-        height: 250px; 
-        background-color: rgb(104, 255, 255); 
-        border: 10px solid rgb(4, 156, 156); 
-        margin-top: 5px; 
-        margin-left: 5px; 
-        margin-right: 5px; 
-        margin-bottom: 40px; 
-        padding-left: 20px;
-        -webkit-text-fill-color: rgb(6, 187, 187);
+    width: 220px; 
+    height: 150px; 
+    background-color: rgb(46, 238, 238); 
+    border: 5px solid rgb(4, 156, 156); 
+    margin-top: 5px; 
+    margin-left: 5px; 
+    margin-right: 5px; 
+    margin-bottom: 40px; 
+    padding-left: 20px;
+    padding-bottom: 5px;
+    float:left;
 }
 
+#first
+{
+    margin-top: 2px; 
+    margin-bottom: 2px; 
+
+}
+#second
+{
+    margin-top: 2px; 
+    margin-bottom: 2px; 
+
+}
+
+#third
+{
+    margin-top: 2px; 
+    margin-bottom: 2px; 
+    -webkit-text-fill-color: rgb(6, 187, 187);
+}
+
+li::marker 
+{
+  color: black;
+}
+
+li{
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.items
+{
+    color :brown;
+}
+
+#box5{
+    width: 865px; 
+    height: 440px; 
+    background-color: rgb(255, 255, 255); 
+    border: 1px solid rgb(255, 255, 255); 
+    margin-top: 5px;  
+    margin-bottom: 40px; 
+    float:right;
+}
+
+#box6{
+    width: 852px; 
+    height: 187px; 
+    background-color: rgb(204, 245, 250); 
+    border: 5px solid rgb(160, 205, 221);  
+    margin-bottom: 7px; 
+    padding-top: 1px ;
+    padding-bottom: 1px ;
+    padding-left: 5px ;
+    padding-right: 5px ;
+    float:right;
+    text-align: justify;
+}
+#box7{
+    width: 852px; 
+    height: 187px; 
+    background-color: rgb(204, 245, 250); 
+    border: 5px solid rgb(160, 205, 221);  
+    margin-top: 7px; 
+    padding-top: 1px ;
+    padding-bottom: 1px ;
+    padding-left: 5px ;
+    padding-right: 5px ;
+    float:right;
+    text-align: justify;
+}
+
+
+h3
+{
+    font-size: 40px; 
+    color: rgb(6, 187, 187);
+    padding:3px ;
+    margin-top: 2px; 
+    margin-bottom: 2px; 
+    
+}
+
+.date
+{
+    border-bottom: 4px dashed blue;
+}
+img{
+    width: 220px;
+    height: 95px;
+    float: right
+
+}
 body{
     background-image: url('images.jpg');
     background-repeat: no-repeat;
